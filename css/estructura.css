@@ -1,0 +1,27 @@
+.padre{
+    background-color: blueviolet;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 7fr 2fr;
+    grid-template-rows: 1fr 5fr 1fr;
+}
+.padre .MENU{
+    background-color: burlywood;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.padre .CONTENIDO{
+    background-color: burlywood;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.padre .ADS{
+    background-color: burlywood;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.padre .PIE{
+    background-color: burlywood;
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
